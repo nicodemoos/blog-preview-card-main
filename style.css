@@ -49,6 +49,16 @@ body {
     margin-bottom: 15px;
 }
 
+h1 {
+    color: black;
+    transition: color 0.3s ease-in-out;
+    cursor:pointer;
+}
+
+h1:hover {
+    color: hsl(47, 88%, 63%); /* Amarelo */
+}
+
 
 h2{
     margin-top: 30px;
